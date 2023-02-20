@@ -42,7 +42,7 @@ public class Main {
 
         }
         try
-
+            
         {
 
             System.out.println("Solicitar actualización de bono");
@@ -56,6 +56,31 @@ public class Main {
             System.out.println("Error al recargar");
 
         }
+   //  Se añade nuevo código para actualizad el bono
+         try {
+
+                    System.out.println(" Modificación 1");
+
+                     cesta.ActualizarBono(-50);
+
+                 } catch (Exception e) {
+
+                           System.out.print("Fallo…….");
+
+                            }
+         
+             try {
+
+                    System.out.println(" Modificación 2");
+
+                     cesta.ActualizarBono(-70);
+
+                 } catch (Exception e) {
+
+                           System.out.print("Fallo…….");
+
+                            }
+         
         return cesta;    
     }
 }
