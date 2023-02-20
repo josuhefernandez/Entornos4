@@ -69,17 +69,7 @@ public class Main {
 
                             }
          
-             try {
-
-                    System.out.println(" Modificación 2");
-
-                     cesta.ActualizarBono(-70);
-
-                 } catch (Exception e) {
-
-                           System.out.print("Fallo…….");
-
-                            }
+         
          
         return cesta;    
     }
