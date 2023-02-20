@@ -11,6 +11,10 @@ package Entornos4;
 public class eCesta {
 
     /**
+     * Esta clase sirve para crear una cesta con los atributos comercio, bono y usuario
+     */
+    
+    /**
      * @return the comercio
      */
     public String getComercio() {
